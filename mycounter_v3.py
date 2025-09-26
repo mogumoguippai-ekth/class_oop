@@ -7,7 +7,7 @@ class MyCounterV3:
 
     
     # カウンタ初期入力値を返す
-    def value(self):
+    def get_value(self):
         return self.value
 
     # カウンタをstepの数だけ増やす
