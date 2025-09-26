@@ -5,7 +5,7 @@ class MyCounterV1:
         self.value = value
 
     # カウンタ初期入力値を返す
-    def value(self):
+    def get_value(self):
         return self.value
     
     # カウンタを1つ増やす
